@@ -16,11 +16,12 @@
         <a href="/" class="uk-button uk-button-default">Entrar</a>
       </div>
     </div>
-
     <p class="uk-text-center">
-      <a href="/signup" class="uk-button uk-width-1-1 uk-button-larger uk-button-primary uk-margin-small-bottom">Quero Cadastrar</a>
+      <a [routerLink]="['/signup']"     
+      class="uk-button uk-width-1-1 uk-button-larger uk-button-primary uk-margin-small-bottom">Quero Cadastrar</a>
       <br>
-      <a href="/reset-password" class="uk-button uk-button-link">Esqueci minha senha</a>
+      
+      <a [routerLink]="['/reset-password']" class="uk-button uk-button-link">Esqueci minha senha</a>
     </p>
 
   </div>
